@@ -1,0 +1,136 @@
+body{
+    background: url(wall.jpg);
+    background-size: cover;
+}
+
+h1{
+    font-size: 70px;
+    color: steelblue;
+    font-family: fantasy;
+}
+
+p{
+    color: steelblue;
+    font-family: sans-serif;
+}
+
+form{
+    margin: 20px;
+    width: 320px;
+    color: steelblue;
+    font-family: sans-serif;
+}
+
+input{
+    padding: 10px;
+    font-size: inherit;
+}
+
+input[type="text"]{
+    display: block;
+    width: 100%;
+    border: 2px solid steelblue;
+}
+
+textarea{
+    display: block;
+    width: 100%;
+    border: 2px solid steelblue;
+}
+
+select{
+    display: block;
+    width: 100%;
+    border: 2px solid steelblue;
+    font-family: sans-serif;
+    color: steelblue;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+}
+
+input[type="submit"]:hover{
+    background-color: skyblue;
+}
+
+button[type="submit"]{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+}
+
+button[type="submit"]:hover{
+    background-color: skyblue;
+}
+
+input[type="reset"]{
+    width: 100%;
+    height: 45px;
+    border: none;
+    background: steelblue;
+    color: white;
+}
+
+input[type="reset"]:hover{
+    background-color: skyblue;
+}
+
+table,th,td{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 10px;
+}
+
+th{
+    background-color: steelblue;
+    color: white;
+}
+
+tr{
+    background-color: skyblue;
+}
+
+a:link{
+    font-family: sans-serif;
+    font-size: 20pt;
+    color: steelblue;
+}
+
+a:visited{
+    color:steelblue;
+}
+
+a:hover{
+    color:white;
+}
+
+#wrap{
+    width: 35%;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+}
+
+footer {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: steelblue;
+}
+
+p.copyright {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
